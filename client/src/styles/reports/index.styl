@@ -1,0 +1,69 @@
+.reports-filter
+  display: table
+  margin 0 auto
+
+  &-block
+    display: block;
+    float: left;
+
+  &-select
+    min-width 102px
+    margin-right 20px
+
+  &-months-tabs
+    li
+      &.empty
+        a
+          color #777
+      &.active
+        a
+          color #fff
+
+
+.fake-panel
+  margin 0px 15px
+
+.reports-list
+  &-item
+    margin-bottom 30px
+
+  &-months
+    font-weight 600
+
+  &-heading
+    display flex
+    align-items center
+    justify-content space-between
+    &.profit
+      margin-bottom 40px
+
+  &-title
+    font-weight 600
+
+  &-align-right
+    text-align right
+
+  &-value
+    font-weight 600
+
+  .article-panel
+    margin-bottom 0
+    border-radius 0
+    &:not(:last-child)
+      border-bottom: 0
+
+    .panel-body
+      padding 13px 15px
+
+    .article-value
+      font-weight 600
+
+  .counterparty-wrapper
+    padding 2px 0
+    font-size 13px
+
+    &.type
+      &-Revenue
+        color green
+      &-Cost
+        color red

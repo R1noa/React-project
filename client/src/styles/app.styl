@@ -1,0 +1,65 @@
+$icon-font-path = "~bootstrap-styl/fonts/"
+$fa-font-path = "~font-awesome-stylus/fonts"
+@import "~font-awesome-stylus/index"
+@import 'bootstrap'
+@import './layout'
+@import './elements'
+@import './counterparties'
+@import './registers'
+@import './reports'
+
+html
+  font-size 16px
+  line-height 20px
+
+a
+  cursor pointer
+
+p
+  font-size 1rem
+  &.sm
+    font-size .9rem
+
+img,
+textarea
+  max-width 100%
+
+.select_year
+  margin-left 42%
+
+.chart_views
+  margin-top 75px
+
+.color
+  &-green
+    color green
+  &-red
+    color red
+
+.nav.nav-tabs
+  margin-bottom 15px
+
+// AJAX Loader
+.main-loader
+  padding 40px 0
+
+
+.select_year
+ margin-left 42%
+
+.chart_views
+  margin-top 100px
+
+.spin-wrap
+  display flex
+  align-items center
+  justify-content center
+  div, span, .spin-text
+    &:first-child
+      margin-right 8px
+    &:only-child
+      margin 0
+
+// Datepicker
+.react-datepicker__input-container
+  width 100%

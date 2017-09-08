@@ -1,0 +1,14 @@
+en:
+  auth:
+    error:
+      not_authorized: Not authorized
+  articles:
+    destroy:
+      success: Article was successfully deleted
+  register:
+    show:
+      error:
+        not_found: Register not_found
+  workspaces:
+    destroy:
+      success: Workspace was successfully deleted
